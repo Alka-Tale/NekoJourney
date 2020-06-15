@@ -2449,7 +2449,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .review-area {
-  background-color: #b68834;
+  background-color: #121212;
   color: #fff;
 }
 
@@ -2527,7 +2527,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .footer-area {
   color: #fff;
   padding-top: 220px;
-  background: url(../img/footer-bg.jpg) center;
+  background: url(../img/coffeefooter.png) center;
   background-size: cover;
 }
 
