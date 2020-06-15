@@ -100,7 +100,7 @@ $(document).ready(function(){
   }
 
   // Smooth scroll for the menu and links with .scrollto classes
-  $('.nav-menu a, #mobile-nav a, .scrollto').on('click', function() {
+  $('.nav-menu a, .explore a, #mobile-nav a, .scrollto').on('click', function() {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
       var target = $(this.hash);
       if (target.length) {
