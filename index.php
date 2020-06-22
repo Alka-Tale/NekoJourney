@@ -63,7 +63,7 @@
 								Coffee Journey				
 							</h1>
 							<div class="explore">
-								<a href="registrasi.php"> 
+								<a href="create.html"> 
 									<button type="button" class="btn btn-primary mt-4">Tambah data</button> 
 								</a>
 							</div>							
