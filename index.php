@@ -63,8 +63,10 @@
 								Coffee Journey				
 							</h1>
 							<div class="explore">
-								<a href="#coffee" class="genric-btn primary circle">Explore Now</a>
-							</div>								
+								<a href="registrasi.php"> 
+									<button type="button" class="btn btn-primary mt-4">Tambah data</button> 
+								</a>
+							</div>							
 						</div>
 														
 					</div>
