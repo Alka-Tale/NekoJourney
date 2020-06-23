@@ -1,7 +1,7 @@
 <?php
 include("config.php");
 
-if(isset($_POST['Submit'])) {
+if(isset($_POST['submit'])) {
  $review = mysqli_real_escape_string($mysqli, $_POST['review']);
  $username = mysqli_real_escape_string($mysqli, $_POST['username']);
  $namakopi = mysqli_real_escape_string($mysqli, $_POST['namakopi']);
@@ -56,36 +56,30 @@ if(isset($_POST['Submit'])) {
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="css/login.css">
+
     <title>Tambah Data</title>
   </head>
   <body>
- 
-      <div class="container">
-        <h1>Review</h1>
-        <form class="col-4" action="add_review.php" method="post" name="form1">
-            <div class="container center">
-                <div class="form-group">
-                    <label for="review">Review</label>
-                    <input type="text" class="form-control" name="review">
-                    </div>
-                    <div class="form-group">
-                    <label for="username">username</label>
-                    <input type="text" class="form-control" name="username">
-                    </div>
-                    <div class="form-group">
-                    <label for="namakopi">Nama Kopi</label>
-                    <input type="text" class="form-control" name="namakopi">
-                    </div>
-                    <div class="form-group">
-                    <label for="rating">rating</label>
-                    <input type="rating" class="form-control" name="rating">
-                    </div>
-          
-                    <button type="submit" name="Submit" class="btn btn-primary">Submit</button>
-                    
-            </div>
-            
-        </form>
+
+
+        <div class="container">
+    <form action="add_review.php" method="post" name="form1">
+      <div class="row">
+        <h2 style="text-align:center">Review Coffeee Skuy</h2>
+        
+  
+          <div class="container">
+  
+          <input type="text" name="review" for="review" placeholder="Review" required>
+          <input type="text" name="username"for="username" placeholder="username" required>
+          <input type="text" name="namakopi"for="namakopi" placeholder="Nama Kopi" required>
+          <input type="text" name="rating"for="rating" placeholder="Rating" required>
+          <input type="submit" name="submit" value="Login">
+        </div>
+      </div>
+    </form>
+  </div>
 
   </div>
     <!-- Optional JavaScript -->

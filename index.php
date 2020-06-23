@@ -206,7 +206,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col">
-							<a onclick="document.getElementById('id01').style.display='block'" style="width:auto;">
+							<a href="add_review.php">
 								<button type="button" class="btn btn-primary mt-4">Tambah data</button>
 							</a>
 						</div>
