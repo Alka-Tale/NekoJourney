@@ -46,7 +46,7 @@
 						<li><a href="#coffee">Best Coffee</a></li>
 						<li><a href="#review">Review</a></li>
 						<li><a href="#blog">Jenis</a></li>
-						<li><a href="login.html">Login</a></li>	
+						<li><a href="login_admin.html">Login Admin</a></li>	
 
 					</ul>
 				</nav><!-- #nav-menu-container -->
