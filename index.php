@@ -66,10 +66,8 @@
 						Coffee Journey
 					</h1>
 					<div class="explore">
-						<a href="create.html">
-							<button type="button" class="btn btn-primary mt-4">Tambah data</button>
-						</a>
-					</div>
+							<a href="#coffee" class="genric-btn primary circle">Explore Now</a>
+					</div>	
 				</div>
 
 			</div>
