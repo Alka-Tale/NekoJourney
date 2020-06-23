@@ -272,7 +272,7 @@ ORDER BY ID ASC");
                                     echo "<td style='color:#ffffff'>" . $res['NamaKopi'] . "</td>";
                                     echo "<td style='color:#ffffff'>" . $res['Review'] . "</td>";
                                     echo "<td style='color:#ffffff'>" . $res['Rating'] . "</td>";
-                                    echo "<td><a href=\"edit.php?id=$res[ID]\">Edit</a> | 
+                                    echo "<td><a href=\"edit_admin.php?id=$res[ID]\">Edit</a> | 
         <a href=\"delete_admin.php?ID=$res[ID]\" onClick=\"return confirm('Are you sure you want to delete?')\">Delete</a>
         </td>";
                                 }

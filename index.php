@@ -38,7 +38,7 @@
 		<div class="container">
 			<div class="row align-items-center justify-content-between d-flex">
 				<div id="logo">
-				<a href="index.html"><img src="img/coffee1.png" height="40" alt="" title="" /></a>
+					<a href="index.html"><img src="img/coffee1.png" height="40" alt="" title="" /></a>
 				</div>
 				<nav id="nav-menu-container">
 					<ul class="nav-menu">
@@ -46,7 +46,7 @@
 						<li><a href="#coffee">Best Coffee</a></li>
 						<li><a href="#review">Review</a></li>
 						<li><a href="#blog">Jenis</a></li>
-						<li><a href="login_admin.html">Login Admin</a></li>	
+						<li><a href="login_admin.html">Login Admin</a></li>
 
 					</ul>
 				</nav><!-- #nav-menu-container -->
@@ -256,12 +256,12 @@
 									$cari = $_GET['cari'];
 
 									$result = mysqli_query($mysqli, "SELECT * FROM review  
-        WHERE username like '%" . $cari . "%'  
-        OR ratting LIKE '%" . $cari . "%'  
-        ");
+        							WHERE Username Like '%" . $cari . "%'  
+        							OR Rating LIKE '%" . $cari . "%'  
+        							");
 								} else {
 									$result = mysqli_query($mysqli, "SELECT * FROM review 
-ORDER BY ID ASC");
+									ORDER BY ID ASC");
 								}
 
 
