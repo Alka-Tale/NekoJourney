@@ -28,7 +28,7 @@
             "UPDATE review SET Username='$username', NamaKopi='$namakopi', Review= '$review', Rating='$rating' WHERE ID=$id"         
         );                  
         //redirectig to the display page. In our case, it is index.php         
-        header("Location: index_admin.php");     
+        header("Location: index_admin.php#review");     
     } 
 } 
 ?> 
@@ -58,34 +58,35 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="css/login.css">
+
     <title>Edit</title>
   </head>
   <body>
-    <div class="container mt-4">         
-        <h1>Form Edit Data</h1>
+    
 
-        <form class="col-4" method="post" action="edit_admin.php" name="form1">                          
-            <div class="form-group">                 
-                <label for="namakopi">Nama Kopi</label>                 
-                <input type="namakopi" class="form-control" name="namakopi" value="<?php echo $namakopi;?>">             
-            </div>             
-            <div class="form-group">                 
-                <label for="username">Username</label>                 
-                <input type="username" class="form-control" name="username" value="<?php echo $username;?>">             
-            </div>             
-            <div class="form-group">                 
-                <label for="review">Review</label>                 
-                <input type="review" class="form-control" name="review" value="<?php echo $review;?>">             
-            </div>             
-            <div class="form-group">                 
-                <label for="rating">Rating</label>                 
-                <input type="rating" class="form-control" name="rating" value="<?php echo $rating;?>">             
-            </div>             
-            <input type="hidden" name="id" value=<?php echo $_GET['id'] ;?>>             
-            <button type="submit" name="update" class="btn btn-primary">Update</button>             
-            <a href="index_admin.php"><button type="button" class="btn btn-success">Home</button></a>           
-        </form> 
-    </div>
+
+    <div class="container">
+    <form action="edit_admin.php" method="post" name="form1">
+      <div class="row">
+        <h2 style="text-align:center">Review Coffeee Skuy</h2>
+        
+  
+          <div class="container">
+  
+          <input type="text" name="review" for="review" placeholder="Review" value="<?php echo $review;?>" required>
+          <input type="text" name="username"for="username" placeholder="username" value="<?php echo $username;?>" required >
+          <input type="text" name="namakopi"for="namakopi" placeholder="Nama Kopi" value="<?php echo $namakopi;?>" required >
+          <input type="text" name="rating"for="rating" placeholder="Rating" value="<?php echo $rating;?>" required>
+          <input type="hidden" name="id" value=<?php echo $_GET['id'] ;?>>  
+          <input type="submit" name="update" value="Update">
+          <a href="index_admin.php#review" style="color:black" class="btn">Cancel</a>
+          
+        </div>
+      </div>
+    </form>
+  </div>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

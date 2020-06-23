@@ -13,7 +13,12 @@ if($cek > 0){
 	$_SESSION['status'] = "login";
 	header("location:index_admin.php");
 }else{
-    echo "<br/><a href='login_admin.php'>Salah</a>";
+    echo"
+    <script>
+        alert('Username atau Password tidak sesuai!');
+        document.location.href = 'login_admin.html';
+    </script>
+    ";
 }
 
 ?>

@@ -10,32 +10,35 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
+
+        <!-- CSS-->
+<link rel="stylesheet" href="css/login.css">
+
   <title>Tambah Data</title>
 </head>
 
 <body>
+
+
   <div class="container">
-    <h1>Form Tambah Data</h1>
-    <form class="col-4" action="create.php" method="post" name="form1">
-      <div class="container">
-        <div class="form-group">
-          <label for="email">Nama</label>
-          <input type="email" class="form-control" name="email">
+    <form action="create.php" method="post" name="form1">
+      <div class="row">
+        <h2 style="text-align:center">Registrasi</h2>
+        
+  
+          <div class="container">
+  
+          <input type="text" name="email" for="emaik" placeholder="Email" required>
+          <input type="text" name="username"for="username" placeholder="Username" required>
+          <input type="password" name="password"for="password" placeholder="Password" required>
+          <input type="submit" name="Submit" value="Submit">
+          <a href="index.php" style="color:black" class="btn">Cancel</a>
         </div>
-        <div class="form-group">
-          <label for="username">username</label>
-          <input type="username" class="form-control" name="username">
-        </div>
-        <div class="form-group">
-          <label for="password">password</label>
-          <input type="password" class="form-control" name="password">
-        </div>
-
-        <a href="index.php"><button type="submit" name="Submit" class="btn btn-primary">Submit</button></a>
       </div>
-
     </form>
   </div>
+
+
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"

@@ -206,8 +206,8 @@
 				<div class="container">
 					<div class="row">
 						<div class="col">
-							<a href="add_review.php">
-								<button type="button" class="btn btn-primary mt-4">Tambah data</button>
+							<a href="login.html">
+								<button type="button" class="genric-btn primary circle mt-4">Tambah Review</button>
 							</a>
 						</div>
 						<div class="col-xs">

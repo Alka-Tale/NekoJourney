@@ -75,7 +75,8 @@ if(isset($_POST['submit'])) {
           <input type="text" name="username"for="username" placeholder="username" required>
           <input type="text" name="namakopi"for="namakopi" placeholder="Nama Kopi" required>
           <input type="text" name="rating"for="rating" placeholder="Rating" required>
-          <input type="submit" name="submit" value="Login">
+          <input type="submit" name="submit" value="Submit">
+          <a href="index.php" style="color:black" class="btn">Cancel</a>
         </div>
       </div>
     </form>

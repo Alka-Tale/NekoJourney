@@ -41,7 +41,12 @@ if(isset($_POST['Submit'])) {
  $result = mysqli_query($mysqli, "INSERT INTO user(Email, Username, Password) VALUES('$email','$username','$password')");
 
  //display success message
- echo "<br/><a href='index.php'>View Result</a>";
+ echo"
+    <script>
+        alert('Selamat ! Registrasi Sukses Cuy');
+        document.location.href = 'login.html';
+    </script>
+    ";
  }
 }
 ?>
