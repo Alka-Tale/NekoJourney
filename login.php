@@ -11,7 +11,7 @@ if($cek > 0){
 	session_start();
 	$_SESSION['username'] = $username;
 	$_SESSION['status'] = "login";
-	header("location:review.php");
+	header("location:add_review.php");
 }else{
     echo "<br/><a href='index.php'>Salah</a>";
 }
