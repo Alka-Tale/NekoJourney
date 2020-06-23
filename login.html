@@ -10,30 +10,31 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
+
+    <!-- CSS-->
+<link rel="stylesheet" href="css/login.css">
+
   <title>Login</title>
 </head>
 
 <body>
   <div class="container">
-    <h1>Login</h1>
-    <form class="col-6" action="login.php" method="post" name="form1">
-      <div class="container">
-        <div class="form-group">
-          <label for="username">username</label>
-          <input type="username" class="form-control" name="username">
+    <form action="login.php" method="post" name="form1">
+      <div class="row">
+        <h2 style="text-align:center">Login</h2>
+        
+  
+          <div class="container">
+  
+          <input type="text" name="username" for="username" placeholder="Username" required>
+          <input type="password" name="password"for="password" placeholder="Password" required>
+          <input type="submit" name="Submit" value="Login">
+          <a href="create.html" style="color:black" class="btn">Sign up</a>
         </div>
-        <div class="form-group">
-          <label for="password">password</label>
-          <input type="password" class="form-control" name="password">
-        </div>
-
-        <button type="submit" name="Login" class="btn btn-primary">Login</button>
-        <br>
-        <p>Jika anda tidak memiliki akun <a href="create.html">clik here</a> To Register</p>
       </div>
-
     </form>
   </div>
+
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"

@@ -29,16 +29,16 @@
 	<link rel="stylesheet" href="css/animate.min.css">
 	<link rel="stylesheet" href="css/owl.carousel.css">
 	<link rel="stylesheet" href="css/main.css">
+
 </head>
 
 <body>
-
 	<header id="header" id="home">
 
 		<div class="container">
 			<div class="row align-items-center justify-content-between d-flex">
 				<div id="logo">
-					<a href="index.html"><img src="img/coffee1.png" height="40" alt="" title="" /></a>
+				<a href="index.html"><img src="img/coffee1.png" height="40" alt="" title="" /></a>
 				</div>
 				<nav id="nav-menu-container">
 					<ul class="nav-menu">
@@ -46,7 +46,7 @@
 						<li><a href="#coffee">Best Coffee</a></li>
 						<li><a href="#review">Review</a></li>
 						<li><a href="#blog">Jenis</a></li>
-						<li><a href="login.html">Login</a></li>
+						<li><a href="login.html">Login</a></li>	
 
 					</ul>
 				</nav><!-- #nav-menu-container -->
@@ -66,8 +66,8 @@
 						Coffee Journey
 					</h1>
 					<div class="explore">
-							<a href="#coffee" class="genric-btn primary circle">Explore Now</a>
-					</div>	
+						<a href="#coffee" class="genric-btn primary circle">Explore Now</a>
+					</div>
 				</div>
 
 			</div>
@@ -217,11 +217,12 @@
 				</head>
 
 				<body>
+
 					<div class="container">
 						<div class="row">
 							<div class="col">
-								<a href="login.html">
-									<button type="button"  class="btn btn-primary mt-4">Tambah data</button>
+								<a onclick="document.getElementById('id01').style.display='block'" style="width:auto;">
+									<button type="button" class="btn btn-primary mt-4">Tambah data</button>
 								</a>
 							</div>
 							<div class="col-xs">
