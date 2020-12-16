@@ -15,7 +15,7 @@
 	<!-- meta character set -->
 	<meta charset="UTF-8">
 	<!-- Site Title -->
-	<title>Coffee Journey</title>
+	<title>Neko Journey</title>
 
 	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
 	<!--
@@ -38,13 +38,13 @@
 		<div class="container">
 			<div class="row align-items-center justify-content-between d-flex">
 				<div id="logo">
-					<a href="index.html"><img src="img/coffee1.png" height="40" alt="" title="" /></a>
+					<a href="index.html"><img src="img/logoneko.png" height="60" alt="" title="" /></a>
 				</div>
 				<nav id="nav-menu-container">
 					<ul class="nav-menu">
 						<li class="menu-active"><a href="#home">Home</a></li>
-						<li><a href="#coffee">Best Coffee</a></li>
-						<li><a href="#review">Review</a></li>
+						<li><a href="#coffee">About</a></li>
+						<li><a href="#review">Information</a></li>
 						<li><a href="#blog">Jenis</a></li>
 						<li><a href="login_admin.html">Login Admin</a></li>
 
@@ -62,8 +62,8 @@
 				<div class="banner-content">
 					<h6 class="text-white text-uppercase">Now you can feel the Energy</h6>
 					<h1>
-						Find your Coffee with<br>
-						Coffee Journey
+						Find your Cat with<br>
+						Neko Journey
 					</h1>
 					<div class="explore">
 						<a href="#coffee" class="genric-btn primary circle">Explore Now</a>
@@ -85,8 +85,8 @@
 			<div class="row d-flex justify-content-center">
 				<div class="menu-content pb-60 col-lg-10">
 					<div class="title text-center">
-						<h1 class="mb-10">Enam Kopi terbaik menurut kami</h1>
-						<p>Kopi mana menurut kamu</p>
+						<h1 class="mb-10">Enam Kucing terbaik menurut kami</h1>
+						<p>Kucing mana menurut kamu</p>
 					</div>
 				</div>
 			</div>
@@ -94,15 +94,17 @@
 				<div class="col-lg-6">
 					<div class="single-menu">
 						<div class="title-div justify-content-between d-flex">
-							<h4>Kopi Luwak</h4>
+							<h4>Ashera</h4>
 
 						</div>
 						<p>
-							Kopi yang satu ini tak hanya terkenal di Indonesia,
-							tapi juga di dunia. Kopi luwak yang berasal dari kotoran
-							hewan luwak ini bahkan dinobatkan menjadi kopi termahal di
-							dunia. Selain karena rasanya yang khas, kopi luwak menjadi
-							mahal karena prosesnya yang unik dan tak mudah.
+						jenis kucing yang sangat langka. Seperti Savannah, 
+						mereka juga berasal dari percampuran kucing besar 
+						(serval) dan kucing lokal. Corak tubuhnya terlihat 
+						seperti leopard salju, tetapi sifatnya sangat mirip 
+						dengan Savannah. Tidak sembarang orang bisa memilikinya 
+						mengingat hanya ada lima anak kucing yang dihasilkan 
+						setiap tahunnya
 						</p>
 					</div>
 				</div>
@@ -111,29 +113,33 @@
 				<div class="col-lg-6">
 					<div class="single-menu">
 						<div class="title-div justify-content-between d-flex">
-							<h4>Kopi Jamaika</h4>
+							<h4>Savannah</h4>
 
 						</div>
 						<p>
-							Bukan hanya Kolombia, negara di Benua Amerika lainnya
-							yang punya jenis kopi sendiri adalah Jamaika dengan kopi
-							populernya bernama Jamaica Blue Mountain. Terbuat dari kopi
-							biasa dengan cita rasa luar biasa. Kopi Jamaika terkenal
-							sebagai kopi kelas premium dengan harga tertinggi di dunia.
+						Savannah adalah percampuran antara kucing domestik dari 
+						Persia dan kucing besar Afrika. Itulah kenapa tubuhnya 
+						lebih besar daripada kucing biasa. Walaupun begitu, mereka 
+						memiliki sifat seperti anjing, yaitu sangat loyal, suka 
+						bermain, dan pintar.Jika tidak dilatih dengan benar, 
+						Savannah bisa menjadi agresif saat berada di dekat 
+						orang yang tidak mereka kenal.
 						</p>
 					</div>
 				</div>
 				<div class="col-lg-6">
 					<div class="single-menu">
 						<div class="title-div justify-content-between d-flex">
-							<h4>Kopi Jawa</h4>
+							<h4>Bengal</h4>
 
 						</div>
 						<p>
-							Daerah di Indonesia yang punya kopi dengan kepopuleran hingga ke seluruh
-							dunia adalah kopi Jawa. Kopi Jawa sudah diproduksi sejak abad ke-17 oleh
-							pemerintah Kolonial Belanda waktu itu. Kopi ini terbuat dari kopi arabika
-							biasa, tapi cita rasa dan kenikmatan yang dihasilkan cukup luarbiasa.
+						Anggun adalah satu kata yang bisa menggambarkan jenis 
+						kucing ini. Corak bulunya terlihat seperti kucing hutan. 
+						Bengal berasal dari percampuran antara kucing lokal dengan 
+						kucing leopard Asia. Walaupun terlihat liar, mereka cocok 
+						dijadikan peliharaan karena aktif, pintar, penyayang, dan 
+						suka bermain. 
 						</p>
 					</div>
 				</div>
@@ -141,43 +147,41 @@
 				<div class="col-lg-6">
 					<div class="single-menu">
 						<div class="title-div justify-content-between d-flex">
-							<h4>Kopi Toraja</h4>
+							<h4>Persia</h4>
 						</div>
 						<p>
-							Kopi Toraja berasal dari Tanah Toraja, Sulawesi. Kepopuleran kopi Toraja tak
-							hanya di Indonesia saja, tetapi juga di dunia seperti Jepang dan Amerika Serikat.
-							Biji kopi yang ditanam terkenal sangat khas dan enak sejak jaman dahulu. Tak ayal karena
-							Toraja memang merupakan daerah pusat penghasil kopi terbesar di Indonesia.
+						Kucing Persia adalah salah satu kucing paling populer di dunia. 
+						Mereka memiliki bulu yang panjang, wajah yang kecil, dan berhidung pesek. 
+						Jenis kucing yang berasal dari Iran ini juga dikenal dengan 
+						sifatnya yang manis, penyayang, dan suka perhatian. 
 						</p>
 					</div>
 				</div>
 				<div class="col-lg-6">
 					<div class="single-menu">
 						<div class="title-div justify-content-between d-flex">
-							<h4>Kopi Kona</h4>
+							<h4>Peterbald</h4>
 
 						</div>
 						<p>
-							Dari deretan kopi termahal di dunia, pasti ada nama kopi Kona di sana.
-							Kopi dengan cita rasa yang khas dan nikmat ini hanya bisa tumbuh di Hawaii saja.
-							Tak ayal untuk dapat menikmati atau sekedar mencicipi kopi ini,
-							kita musti merogoh kocek cukup dalam.
-							Kopi Kona juga hanya bisa tumbuh di Hawai pada musim-musim tertentu.
+						Mirip seperti Sphynx, Peterbald juga tidak memiliki bulu. Namun ada 
+						beberapa fitur yang bisa membedakan keduanya. Peterbald memiliki wajah yang 
+						kecil dan panjang, telinga seperti kelelawar, dan kaki yang terlihat berselaput.
+						Jenis kucing ini terkenal menyukai anak-anak, penyayang, cerdik, dan lebih aktif daripada Sphynx.
 						</p>
 					</div>
 				</div>
 				<div class="col-lg-6">
 					<div class="single-menu">
 						<div class="title-div justify-content-between d-flex">
-							<h4>Kopi Lampung</h4>
+							<h4>Russian Blue</h4>
 
 						</div>
 						<p>
-							Kopi yang bersal dari salah satu daerah diIndonesia yaitu kopi Lampung.
-							Kopi Lampung sebagian besar masih termasuk dalam jenis kopi robusta.
-							Kopi yang terkenal dengan rasa dan aromanya yang khas ini
-							banyak dibudidayakan di dataran tinggi
-							seperti di sekitar Lampung Tenah, Lampung Barat, dan daerah Tanggamus.
+						Seperti namanya, Russian Blue berasal dari Arkhangelsk, Rusia. Jenis kucing ini 
+						memiliki bulu berwarna biru keabu-abuan. Pada umumnya mereka memiliki mata 
+						berwarna senada dengan bulunya. Alasan kenapa jenis ini populer adalah 
+						karena Russian Blue sangat loyal dan penyayang, cocok untuk dipelihara oleh keluarga. Kamu harus menyiapkan uang sebesar US$1.700 atau setara dengan Rp24,2 juta. 
 						</p>
 					</div>
 				</div>
